@@ -67,6 +67,19 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Qualcomm",
+      link: "https://www.qualcomm.com/",
+      badges: ["Computer Vision", "Reinforcement Learning", "Machine Learning",],
+      title: "Systems Engineer Intern",
+      // logo: MicrosoftLogo,
+      start: "2024",
+      end: "2024",
+      description:
+        "•	Designed and deployed Reinforcement Learning and Bayesian Optimization to optimize system resource allocation in ADAS (Qualcomm's Automated Driving Platform) , focusing on blackbox optimization techniques. \n\
+        •	Built Low Power Sentry mode for ADAS (Automotive Driving Platform) that identifies threats to the system while consuming minimal power. \n\
+        ",
+    },
+    {
       company: "Microsoft",
       link: "https://www.microsoft.com/",
       badges: ["FullStack", "ML", "Android", "React", "Tensorflow"],
@@ -162,55 +175,55 @@ export const RESUME_DATA = {
     },
   ],
   projects: [
-    {
-      title: "Large Language Model Cookbook",
-      techStack: [
-        "Side Project",
-        "LLM",
-        "Finetuning",
-        "RAG",
-        "HuggingFace",
-        "PyTorch",
-      ],
-      description: "A cookbook detailing the best ways to build, utilize, & deploy large language models for a wide range of applications",
-      logo: ConsultlyLogo,
-      link: {
-        label: "LLM Cookbook",
-        href: "https://github.com/Exorust/LLM-Cookbook",
-      },
-    },
-    {
-      title: "LLM Movie Recommender",
-      techStack: [
-        "Side Project",
-        "Mistral",
-        "Finetuning",
-        "LoRA",
-        "PEFT",
-        "PyTorch",
-      ],
-      description: "Built a movie recommendation chatbot that tailors suggestions based on user preferences by finetuning Mixtral LLM on the IMDB dataset.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "LLM Movie Recommender",
-        href: "https://github.com/Exorust/LLM-movie-recommender/",
-      },
-    },
-    {
-      title: "Interactive Medical Education LLM Chatbot",
-      techStack: [
-        "Side Project",
-        "Mistral",
-        "ChromaDB",
-        "RAG",
-        "PyTorch",
-      ],
-      description: "Created an interactive Medical RAG(Retrieval Augmented Generation) study LLM, letting med students quiz themselves using textbooks. Set up a vector database, smoothly linking textbook info to a Llama 2 for a unique learning experience.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Interactive Medical Education LLM Chatbot",
-        href: "https://github.com/Exorust/Interactive-Medical-Education-LLM-Chatbot",
-      },
-    },
+    // {
+    //   title: "Large Language Model Cookbook",
+    //   techStack: [
+    //     "Side Project",
+    //     "LLM",
+    //     "Finetuning",
+    //     "RAG",
+    //     "HuggingFace",
+    //     "PyTorch",
+    //   ],
+    //   description: "A cookbook detailing the best ways to build, utilize, & deploy large language models for a wide range of applications",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "LLM Cookbook",
+    //     href: "https://github.com/Exorust/LLM-Cookbook",
+    //   },
+    // },
+    // {
+    //   title: "LLM Movie Recommender",
+    //   techStack: [
+    //     "Side Project",
+    //     "Mistral",
+    //     "Finetuning",
+    //     "LoRA",
+    //     "PEFT",
+    //     "PyTorch",
+    //   ],
+    //   description: "Built a movie recommendation chatbot that tailors suggestions based on user preferences by finetuning Mixtral LLM on the IMDB dataset.",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "LLM Movie Recommender",
+    //     href: "https://github.com/Exorust/LLM-movie-recommender/",
+    //   },
+    // },
+    // {
+    //   title: "Interactive Medical Education LLM Chatbot",
+    //   techStack: [
+    //     "Side Project",
+    //     "Mistral",
+    //     "ChromaDB",
+    //     "RAG",
+    //     "PyTorch",
+    //   ],
+    //   description: "Created an interactive Medical RAG(Retrieval Augmented Generation) study LLM, letting med students quiz themselves using textbooks. Set up a vector database, smoothly linking textbook info to a Llama 2 for a unique learning experience.",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "Interactive Medical Education LLM Chatbot",
+    //     href: "https://github.com/Exorust/Interactive-Medical-Education-LLM-Chatbot",
+    //   },
+    // },
   ],
 } as const;
