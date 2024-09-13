@@ -174,7 +174,7 @@ export const RESUME_DATA = {
       },
     },
   ],
-  projects: [
+  // projects: [
     // {
     //   title: "Large Language Model Cookbook",
     //   techStack: [
@@ -225,5 +225,5 @@ export const RESUME_DATA = {
     //     href: "https://github.com/Exorust/Interactive-Medical-Education-LLM-Chatbot",
     //   },
     // },
-  ],
+  // ],
 } as const;
