@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, PencilLine } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -79,7 +79,8 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={RESUME_DATA.contact.tel}>
+                  <a href={RESUME_DATA.contact.blog}>
+                    <PencilLine className="h-4 w-4" />
                     Blog
                   </a>
                 </Button>
