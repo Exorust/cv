@@ -79,7 +79,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={RESUME_DATA.contact.blog}>
+                  <a href={RESUME_DATA.contact.blog} className="p-2">
                     <PencilLine className="h-4 w-4" />
                     Blog
                   </a>
