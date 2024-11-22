@@ -33,6 +33,7 @@ export const RESUME_DATA = {
   contact: {
     email: "charoori@bu.edu",
     tel: "+16172560885",
+    blog: "https://charoori.notion.site/llm-home-thoughts",
     social: [
       {
         name: "GitHub",

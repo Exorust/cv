@@ -72,6 +72,18 @@ export default function Page() {
                   </a>
                 </Button>
               ))}
+              {RESUME_DATA.contact.blog ? (
+                <Button
+                  className="h-8 w-8"
+                  variant="outline"
+                  size="icon"
+                  asChild
+                >
+                  <a href={RESUME_DATA.contact.tel}>
+                    Blog
+                  </a>
+                </Button>
+              ) : null}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
