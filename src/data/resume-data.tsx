@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Masters in AI @ BU | ex-Microsoft, ex-Nvidia",
   summary:
-    "Building the future of AI with LLMs",
+    "ML is the future. \n We live in an age where we need to future-proof ourselves through learning.",
   avatarUrl: "https://avatars.githubusercontent.com/u/20578676?s=400&u=66099b9b666699230e3bca1d19808c913a603454&v=4",
   personalWebsiteUrl: "https://exorust.github.io",
   contact: {
@@ -67,6 +67,20 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "CoreAI",
+      link: "",
+      badges: ["LLM", "CodeGen", ],
+      title: "Technical Cofounder",
+      // logo: MicrosoftLogo,
+      start: "2024",
+      end: "2024",
+      description:
+        "•	Architected multi model systems with Llama 8B for core tasks and Phi 2 2.7B for on-device file understanding. \n\
+• Finetuned both models with knowledge distillation and QLoRA, achieving a 35% model size reduction and 70% inference speed improvement. \n\
+• Online deployment of Llama 8B with vLLM on EC2 with elastic GPU \n\
+• Improved model\'s natural styling with RLHF using Huggingface DPO. ",
+    },
     {
       company: "Qualcomm",
       link: "https://www.qualcomm.com/",
@@ -134,13 +148,12 @@ export const RESUME_DATA = {
     "PyTorch",
     "CUDA",
     "Pytorch-Lightning",
-    "FastAI",
+    "TorchServe",
     "Langchain",
     "Azure ML",
-    "Llama.cpp",
-    "Pinecone",
-    "HuggingFace",
-    "LlamaIndex",
+    "Kubernetes",
+    "ONNX",
+    "Kafka ",
     "Docker",
     "LLM",
     "ReactJS",

@@ -180,7 +180,7 @@ export default function Page() {
           })}
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        {/* <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Research Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-4 print:grid-cols-2 print:gap-3 md:grid-cols-2 lg:grid-cols-2">
             {RESUME_DATA.researchprojects.map((project) => {
@@ -195,7 +195,7 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>
+        </Section> */}
 
         {/* <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
